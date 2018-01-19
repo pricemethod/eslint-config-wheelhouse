@@ -1,26 +1,29 @@
 {
-  "name": "eslint-config-wheelhouse",
-  "version": "1.0.0",
-  "description": "Shared Wheelhouse Eslint Config",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pricemethod/eslint-config-wheelhouse.git"
-  },
-  "author": "",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/pricemethod/eslint-config-wheelhouse/issues"
-  },
-  "homepage": "https://github.com/pricemethod/eslint-config-wheelhouse#readme",
-  "dependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-mocha": "^4.11.0",
-    "eslint-plugin-prettier": "^2.5.0",
-    "eslint-plugin-react": "^7.5.1"
-  }
+    "name": "eslint-config-wheelhouse",
+    "version": "1.0.0",
+    "description": "Shared Wheelhouse Eslint Config",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pricemethod/eslint-config-wheelhouse.git"
+    },
+    "author": "",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/pricemethod/eslint-config-wheelhouse/issues"
+    },
+    "homepage": "https://github.com/pricemethod/eslint-config-wheelhouse#readme",
+    "dependencies": {
+        "babel-eslint": "^8.2.1",
+        "eslint-plugin-jsx-a11y": "^6.0.3",
+        "eslint-plugin-mocha": "^4.11.0",
+        "eslint-plugin-prettier": "^2.5.0",
+        "eslint-plugin-react": "^7.5.1"
+    },
+    "peerDependencies": {
+        "eslint": ">= 4"
+    }
 }
