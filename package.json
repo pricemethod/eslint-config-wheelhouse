@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/pricemethod/eslint-config-wheelhouse#readme",
   "dependencies": {
+    "babel-eslint": "^8.2.1",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-mocha": "^4.11.0",
     "eslint-plugin-prettier": "^2.5.0",
