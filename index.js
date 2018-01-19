@@ -1,4 +1,4 @@
-modules.export = {
+module.export = {
     rules: {
         'array-callback-return': 2,
         'array-bracket-spacing': 2,
