@@ -7,7 +7,7 @@ Shared Wheelhouse Eslint Config
 Install
 
 ```
-npm install --save-dev https://github.com/pricemethod/eslint-config-wheelhouse
+npm install --save-dev eslint-config-wheelhouse eslint
 ```
 
 Add this to your `.eslintrc`
