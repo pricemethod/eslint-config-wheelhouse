@@ -82,7 +82,7 @@ module.exports = {
         jest: true,
         mocha: true,
     },
-    extends: 'eslint:recommended',
+    extends: ['eslint:recommended', 'plugin:react/recommended'],
     parser: 'babel-eslint',
     parserOptions: {
         sourceType: 'module',
