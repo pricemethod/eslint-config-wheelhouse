@@ -97,6 +97,7 @@ module.exports = {
         SKIP_SLOW_TESTS: false,
         LogRocket: false,
         mapboxgl: false,
+        GRAPHQLURL: false,
     },
     plugins: ['react', 'jsx-a11y', 'mocha', 'prettier'],
 };
