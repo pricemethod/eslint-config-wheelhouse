@@ -43,7 +43,7 @@ module.exports = {
         'jsx-a11y/alt-text': 2,
         'jsx-a11y/img-redundant-alt': 2,
         'prettier/prettier': [
-            'error',
+            1,
             {
                 singleQuote: true,
                 trailingComma: 'all',
