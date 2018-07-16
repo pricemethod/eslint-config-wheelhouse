@@ -88,7 +88,6 @@ module.exports = {
         sourceType: 'module',
         ecmaFeatures: {
             jsx: true,
-            experimentalObjectRestSpread: true,
         },
     },
     globals: {
