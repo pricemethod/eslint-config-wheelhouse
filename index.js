@@ -1,5 +1,7 @@
 module.exports = {
   rules: {
+    "no-var": "error",
+    "prefer-const": "error",
     "array-callback-return": 1,
     "array-bracket-spacing": 1,
     "arrow-spacing": 1,
