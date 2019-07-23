@@ -103,5 +103,5 @@ module.exports = {
     mapboxgl: false,
     GRAPHQLURL: false
   },
-  plugins: ["react", "jsx-a11y", "mocha", "prettier"]
+  plugins: ["react", "react-hooks", "jsx-a11y", "mocha", "prettier"]
 };
