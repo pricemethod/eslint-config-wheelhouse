@@ -77,7 +77,9 @@ module.exports = {
     "react/no-unknown-property": 1,
     "react/no-unused-prop-types": 1,
     "react/prop-types": 0,
-    "react/self-closing-comp": 1
+    "react/self-closing-comp": 1,
+    "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
+    "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
   },
   env: {
     es6: true,
