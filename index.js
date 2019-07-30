@@ -80,6 +80,7 @@ module.exports = {
     "react/self-closing-comp": 1,
     "react-hooks/rules-of-hooks": 2,
     "react-hooks/exhaustive-deps": 1,
+    "require-atomic-updates": 0
   },
   env: {
     es6: true,
