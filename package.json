@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-wheelhouse",
-    "version": "5.0.0",
+    "version": "6.0.0",
     "description": "Shared Wheelhouse Eslint Config",
     "main": "index.js",
     "scripts": {
