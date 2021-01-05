@@ -1,7 +1,7 @@
 module.exports = {
     rules: {
         'no-var': 'error',
-        'prefer-const': 0,
+        'prefer-const': 1,
         'array-callback-return': 1,
         'array-bracket-spacing': 1,
         'arrow-spacing': 1,
@@ -104,9 +104,4 @@ module.exports = {
         GRAPHQLURL: false,
     },
     plugins: ['react', 'react-hooks', 'jsx-a11y', 'mocha', 'prettier'],
-    settings: {
-        react: {
-            version: 'detect',
-        },
-    },
 };
