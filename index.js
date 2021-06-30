@@ -23,7 +23,6 @@ module.exports = {
         'operator-linebreak': 1,
         'prefer-arrow-callback': 1,
         'prefer-spread': 1,
-        'mocha/no-exclusive-tests': 'error',
         'no-case-declarations': 0,
         'no-console': 0,
         'no-dupe-class-members': 1,
@@ -85,7 +84,6 @@ module.exports = {
         browser: true,
         node: true,
         jest: true,
-        mocha: true,
     },
     extends: ['eslint:recommended', 'plugin:react/recommended', 'prettier'],
     parser: 'babel-eslint',
@@ -103,5 +101,5 @@ module.exports = {
         mapboxgl: false,
         GRAPHQLURL: false,
     },
-    plugins: ['react', 'react-hooks', 'jsx-a11y', 'mocha', 'prettier'],
+    plugins: ['react', 'react-hooks', 'jsx-a11y', 'prettier'],
 };
