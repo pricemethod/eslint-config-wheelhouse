@@ -91,6 +91,7 @@ module.exports = {
         ecmaFeatures: {
             jsx: true,
         },
+        ecmaVersion: 'latest',
     },
     globals: {
         Intercom: false,
