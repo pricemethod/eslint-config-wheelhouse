@@ -86,7 +86,6 @@ module.exports = {
         jest: true,
     },
     extends: ['eslint:recommended', 'plugin:react/recommended', 'prettier'],
-    parser: "@babel/eslint-parser",
     parserOptions: {
         sourceType: 'module',
         ecmaFeatures: {
